@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import { RiArrowRightUpLine } from "react-icons/ri";
 import { CrownSvg } from "./reuseable/CrownSvg";
 
@@ -6,11 +6,10 @@ export default function Waitlist() {
   return (
     <div className="relative h-fit w-full bg-hero_sm bg-cover bg-no-repeat bg-top overflow-hidden">
       <div className="w-[160px] h-[160px] 2xl:w-[180px] 2xl:h-[180px] 3xl:w-[220px] 3xl:h-[220px] absolute -bottom-4 md:left-8 xl:left-[10%]">
-        <Image
+        <img
           src="/blox4.svg"
           alt="waitlist section img"
-          fill="fill"
-          style="contain"
+          className="object-contain"
         />
       </div>
       <div className="container mx-auto xs:w-[80%] sm:w-[520px] md:w-[600px] lg:w-[700px] xl:w-[740px] 2xl:w-[900px] text-center pt-[86px] lg:pt-[129px] 2xl:pt-[190px] pb-[138px] lg:pb-[152px] 2xl:pb-4220px]">

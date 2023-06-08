@@ -1,4 +1,4 @@
-import FAQ from "./components/FAQ";
+import Faq from "./components/FAQ";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
@@ -24,7 +24,7 @@ export default function App() {
         <Hero />
         <WhoWeAre />
         <Offerings />
-        <FAQ />
+        <Faq />
         <Sponsors />
         <Waitlist />
         <Footer />

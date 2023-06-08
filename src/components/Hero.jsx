@@ -1,33 +1,36 @@
-import Image from "next/image";
+// import Image from "next/image";
 import { RiArrowRightUpLine } from "react-icons/ri";
 
 export default function Hero() {
   return (
     <div className="relative h-fit w-full bg-hero_sm md:bg-hero bg-cover bg-no-repeat bg-left-bottom">
       <div className="md:hidden w-[110px] h-[110px] absolute -left-4 top-[35%]">
-        <Image
+        <img
+          className="object-contain"
           src="/blox_sm.svg"
           alt="hero section img 2"
-          fill="fill"
-          style="contain"
+          // fill="fill"
+          // style="contain"
         />
       </div>
       <div className="container pt-[40px] md:pt-[56px] 2xl:pt-[46px] pb-[175px] md:pb-[103px] 2xl:pb-[40px] h-full flex flex-col md:flex-row gap-[42px] md:gap-[28px] 2xl:gap-[48px] relative">
         <div className="hidden md:block w-[110px] h-[80px] 2xl:w-[220px] 2xl:h-[140px] absolute bottom-0">
-          <Image
+          <img
+            className="object-contain"
             src="/blox.png"
             alt="hero section img 2"
-            fill="fill"
-            style="contain"
+            // fill="fill"
+            // style="contain"
           />
         </div>
 
         <div className="w-[59px] h-[59px] 2xl:w-[104px] 2xl:h-[104px] absolute top-[8%] md:top-[12%] right-[8%] md:right-[30%]">
-          <Image
+          <img
+            className="object-contain"
             src="/hero_frame_star.png"
             alt="hero section img 3"
-            fill="fill"
-            style="contain"
+            // fill="fill"
+            // style="contain"
           />
         </div>
         <div className="absolute bottom-[30px] md:bottom-[6%] right-1/2 translate-x-1/2 md:translate-x-0 md:right-2 3xl:-right-2 flex gap-[16px] 3xl:gap-[32px]">
@@ -56,19 +59,21 @@ export default function Hero() {
         </div>
         <div className="w-[45%] mx-auto md:mx-0 md:w-[28.57%] 2xl:w-[26%] mt-[80px] lg:mt-[100px] xl:mt-[120px] 2xl:mt-[180px] 2xl:mb-[calc(0.115*100%)]">
           <div className="w-[94%] mx-auto h-[13vw] md:h-[40.63px] lg:h-[50.63px] xl:h-[65px] 2xl:h-[75px] 3xl:h-[90px] relative ">
-            <Image
+            <img
+              className="object-contain"
               src="https://raw.githubusercontent.com/xamie01/kleekit-jobs/main/2%20portfolio/images/Frame%20597.png"
               alt="pics with small sizes"
-              fill="fill"
-              style="contain"
+              // fill="fill"
+              // style="contain"
             />
           </div>
           <div className="mt-[17px] 2xl:mt-[36px] h-[52vw] md:h-[156.55px] lg:h-[200px] xl:h-[240px] 2xl:h-[300px] 3xl:h-[377px] relative ">
-            <Image
+            <img
+              className="object-contain"
               src="https://raw.githubusercontent.com/xamie01/kleekit-jobs/main/2%20portfolio/images/Frame%20603.png"
               alt="hero section img 1"
-              fill="fill"
-              style="contain"
+              // fill="fill"
+              // style="contain"
             />
           </div>
         </div>
@@ -87,11 +92,12 @@ export default function Hero() {
         </div>
         <div className="hidden md:block w-[28.57%] 2xl:w-[26%] 2xl:mt-[calc(0.06*100%)]">
           <div className="h-[180px] lg:h-[220px] xl:h-[270px] 2xl:h-[310px] 3xl:h-[430px] relative ">
-            <Image
+            <img
+              className="object-contain"
               src="/s1img2.png"
               alt="hero section img 2"
-              fill="fill"
-              style="contain"
+              // fill="fill"
+              // style="contain"
             />
           </div>
         </div>

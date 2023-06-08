@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import { IoIosArrowDown } from "react-icons/io";
 import { CrownSvg } from "./reuseable/CrownSvg";
 
@@ -16,11 +16,10 @@ export default function Offerings() {
           <ArrowOneSvg />
           <ArrowTwoSvg />
           <div className="w-full h-[247px] 2xl:h-[480px] relative mb-[16px]">
-            <Image
+            <img
               src="/VR_games.png"
               alt="hero section img 2"
-              fill="fill"
-              style="contain"
+              className="object-contain"
             />
           </div>
           <div className="w-[98%] 2xl:w-[85%]">
@@ -35,11 +34,10 @@ export default function Offerings() {
         </div>
         <div className="w-[218px] 2xl:w-[423px] lg:even:mt-[56px] 2xl:even:mt-[109px]">
           <div className="w-full h-[247px] 2xl:h-[480px] relative mb-[16px]">
-            <Image
+            <img
               src="/playstations.png"
               alt="hero section img 2"
-              fill="fill"
-              style="contain"
+              className="object-contain"
             />
           </div>
           <div className="w-[98%] 2xl:w-[85%]">
@@ -55,11 +53,10 @@ export default function Offerings() {
         <div className="relative w-[218px] 2xl:w-[423px] lg:even:mt-[56px] 2xl:even:mt-[109px]">
           <ArrowThreeSvg />
           <div className="w-full h-[247px] 2xl:h-[480px] relative mb-[16px]">
-            <Image
+            <img
               src="/chess_master.png"
               alt="hero section img 2"
-              fill="fill"
-              style="contain"
+              className="object-contain"
             />
           </div>
           <div className="w-[98%] 2xl:w-[85%]">
@@ -74,11 +71,10 @@ export default function Offerings() {
         <div className="relative w-[218px] 2xl:w-[423px] lg:even:mt-[56px] 2xl:even:mt-[109px]">
           <ArrowFourSvg />
           <div className="w-full h-[247px] 2xl:h-[480px] relative mb-[16px]">
-            <Image
+            <img
               src="/dart.png"
               alt="hero section img 2"
-              fill="fill"
-              style="contain"
+              className="object-contain"
             />
           </div>
           <div className="w-[98%] 2xl:w-[85%]">

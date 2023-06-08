@@ -1,4 +1,4 @@
-export default function FAQ() {
+export default function Faq() {
   return (
     <section className="container flex flex-col items-center py-[25px] lg:pb-[62px] 2xl:pt-[48px] 2xl:pb-[110px]">
       <div className="flex flex-col items-center mb-[22px] lg:mb-[38px] 2xl:mb-[75px]">
